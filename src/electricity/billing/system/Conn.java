@@ -5,6 +5,7 @@ import java.sql.*;
 public class Conn {
 		
 	Connection c;
+	
 	Statement s;
 	
 		Conn() throws ClassNotFoundException, SQLException{
